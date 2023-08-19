@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn-primary {
+    @apply bg-primary border-primary text-white h-auto min-h-[42px] capitalize text-base;
+  }
+}
