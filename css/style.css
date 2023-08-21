@@ -1296,3 +1296,11 @@ html {
     grid-template-columns: 1fr 200px;
   }
 }
+
+.\[\&_img\]\:h-40 img {
+  height: 10rem;
+}
+
+.\[\&_img\]\:w-auto img {
+  width: auto;
+}
